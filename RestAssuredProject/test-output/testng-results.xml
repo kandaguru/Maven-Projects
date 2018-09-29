@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAssuredSuite" duration-ms="2855" started-at="2018-09-13T10:08:31Z" finished-at="2018-09-13T10:08:33Z">
+    <groups>
+    </groups>
+    <test name="RestAssuredTest" duration-ms="2855" started-at="2018-09-13T10:08:31Z" finished-at="2018-09-13T10:08:33Z">
+      <class name="com.RestAssured.app.RestAssuredCreateIssueTC1">
+        <test-method status="PASS" signature="createIssue()[pri:0, instance:com.RestAssured.app.RestAssuredCreateIssueTC1@20322d26]" name="createIssue" duration-ms="2472" started-at="2018-09-13T10:08:31Z" finished-at="2018-09-13T10:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createIssue -->
+      </class> <!-- com.RestAssured.app.RestAssuredCreateIssueTC1 -->
+      <class name="com.RestAssured.app.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:com.RestAssured.app.AppTest@64bfbc86]" name="testApp" duration-ms="5" started-at="2018-09-13T10:08:33Z" finished-at="2018-09-13T10:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.RestAssured.app.AppTest -->
+      <class name="com.RestAssured.app.RestAssuredCommentsTC2">
+        <test-method status="PASS" signature="addComments()[pri:0, instance:com.RestAssured.app.RestAssuredCommentsTC2@192b07fd]" name="addComments" duration-ms="177" started-at="2018-09-13T10:08:33Z" finished-at="2018-09-13T10:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addComments -->
+        <test-method status="PASS" signature="updateComments()[pri:0, instance:com.RestAssured.app.RestAssuredCommentsTC2@192b07fd]" name="updateComments" duration-ms="155" started-at="2018-09-13T10:08:33Z" finished-at="2018-09-13T10:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateComments -->
+      </class> <!-- com.RestAssured.app.RestAssuredCommentsTC2 -->
+    </test> <!-- RestAssuredTest -->
+  </suite> <!-- RestAssuredSuite -->
+</testng-results>

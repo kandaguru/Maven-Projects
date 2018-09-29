@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52157" started-at="2018-09-22T02:35:46Z" finished-at="2018-09-22T02:36:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52157" started-at="2018-09-22T02:35:46Z" finished-at="2018-09-22T02:36:38Z">
+      <class name="com.applitool.practice.SDJClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.applitool.practice.SDJClass@3327bd23]" name="setUp" is-config="true" duration-ms="4297" started-at="2018-09-22T02:35:46Z" finished-at="2018-09-22T02:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Find_number_of_Broken_links()[pri:0, instance:com.applitool.practice.SDJClass@3327bd23]" name="Find_number_of_Broken_links" duration-ms="47829" started-at="2018-09-22T02:35:50Z" finished-at="2018-09-22T02:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Find_number_of_Broken_links -->
+      </class> <!-- com.applitool.practice.SDJClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22715" started-at="2018-09-25T04:43:45Z" finished-at="2018-09-25T04:44:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22715" started-at="2018-09-25T04:43:45Z" finished-at="2018-09-25T04:44:08Z">
+      <class name="com.dataprovider.DataProviderEx">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="setUp" is-config="true" duration-ms="4442" started-at="2018-09-25T04:43:46Z" finished-at="2018-09-25T04:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="loginVerification" duration-ms="6" started-at="2018-09-25T04:43:50Z" data-provider="dataproviderfunc" finished-at="2018-09-25T04:43:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwee1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwe@gmail.com1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="tearDown" is-config="true" duration-ms="759" started-at="2018-09-25T04:43:50Z" finished-at="2018-09-25T04:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="setUp" is-config="true" duration-ms="3464" started-at="2018-09-25T04:43:51Z" finished-at="2018-09-25T04:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="loginVerification" duration-ms="1" started-at="2018-09-25T04:43:54Z" data-provider="dataproviderfunc" finished-at="2018-09-25T04:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwee2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwe@gmail.com2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="tearDown" is-config="true" duration-ms="785" started-at="2018-09-25T04:43:54Z" finished-at="2018-09-25T04:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="setUp" is-config="true" duration-ms="3481" started-at="2018-09-25T04:43:55Z" finished-at="2018-09-25T04:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="loginVerification" duration-ms="1" started-at="2018-09-25T04:43:59Z" data-provider="dataproviderfunc" finished-at="2018-09-25T04:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwee3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwe@gmail.com3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="tearDown" is-config="true" duration-ms="720" started-at="2018-09-25T04:43:59Z" finished-at="2018-09-25T04:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="setUp" is-config="true" duration-ms="3449" started-at="2018-09-25T04:43:59Z" finished-at="2018-09-25T04:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="loginVerification" duration-ms="2" started-at="2018-09-25T04:44:03Z" data-provider="dataproviderfunc" finished-at="2018-09-25T04:44:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwee4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwe@gmail.com4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="tearDown" is-config="true" duration-ms="757" started-at="2018-09-25T04:44:03Z" finished-at="2018-09-25T04:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="setUp" is-config="true" duration-ms="3507" started-at="2018-09-25T04:44:04Z" finished-at="2018-09-25T04:44:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginVerification(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="loginVerification" duration-ms="1" started-at="2018-09-25T04:44:07Z" data-provider="dataproviderfunc" finished-at="2018-09-25T04:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qwer5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[qwee5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[qwe@gmail.com5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginVerification -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataprovider.DataProviderEx@6a4f787b]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-09-25T04:44:07Z" finished-at="2018-09-25T04:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dataprovider.DataProviderEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

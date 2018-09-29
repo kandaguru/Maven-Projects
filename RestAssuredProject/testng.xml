@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredSuite">
+  <test  name="RestAssuredTest">
+    <classes>
+      <class name="com.RestAssured.app.RestAssuredCreateIssueTC1"/>
+      <class name="com.RestAssured.app.RestAssuredCommentsTC2"/>
+      <class name="com.RestAssured.app.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
