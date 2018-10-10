@@ -5,7 +5,7 @@
     <classes>
       <class name="com.RestAssured.app.RestAssuredCommentsTC2">
         <methods>
-          <include name="updateComments"/>
+          <include name="addComments"/>
         </methods>
       </class> <!-- com.RestAssured.app.RestAssuredCommentsTC2 -->
     </classes>

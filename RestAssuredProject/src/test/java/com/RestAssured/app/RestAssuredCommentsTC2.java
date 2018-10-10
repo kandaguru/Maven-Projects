@@ -20,9 +20,11 @@ public class RestAssuredCommentsTC2 extends BaseClassJira {
 	public static void addComments() throws IOException {
 
 		RestAssured.baseURI = prop.getProperty("HOST");
-
+		
+		RestAssuredCreateIssueTC1.createIssue();
+		//cookieAuth=BaseClassJira.jiraGetSessionKey();
 	
-		Response res = given().given().header("cookie", cookieAuth).header("Content-Type", "application/json")
+		Response res = given().header("cookie", cookieAuth).header("Content-Type", "application/json")
 				.body(CommentPayload.getAddCommentPayload()).log().all().when()
 				.post(prop.getProperty("commentresourcesPart1") + issueId + prop.getProperty("commentresourcesPart2"))
 				.then().assertThat().statusCode(201).log().all().extract().response();

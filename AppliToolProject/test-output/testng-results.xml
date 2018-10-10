@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52157" started-at="2018-09-22T02:35:46Z" finished-at="2018-09-22T02:36:38Z">
+  <suite name="Default suite" duration-ms="69021" started-at="2018-09-30T00:57:51Z" finished-at="2018-09-30T00:59:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52157" started-at="2018-09-22T02:35:46Z" finished-at="2018-09-22T02:36:38Z">
-      <class name="com.applitool.practice.SDJClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.applitool.practice.SDJClass@3327bd23]" name="setUp" is-config="true" duration-ms="4297" started-at="2018-09-22T02:35:46Z" finished-at="2018-09-22T02:35:50Z">
+    <test name="Default test" duration-ms="69021" started-at="2018-09-30T00:57:51Z" finished-at="2018-09-30T00:59:00Z">
+      <class name="com.applitool.practice.FramesEx">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.applitool.practice.FramesEx@52a86356]" name="setUp" is-config="true" duration-ms="25836" started-at="2018-09-30T00:57:51Z" finished-at="2018-09-30T00:58:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Find_number_of_Broken_links()[pri:0, instance:com.applitool.practice.SDJClass@3327bd23]" name="Find_number_of_Broken_links" duration-ms="47829" started-at="2018-09-22T02:35:50Z" finished-at="2018-09-22T02:36:38Z">
+        <test-method status="PASS" signature="testFrames()[pri:0, instance:com.applitool.practice.FramesEx@52a86356]" name="testFrames" duration-ms="42345" started-at="2018-09-30T00:58:17Z" finished-at="2018-09-30T00:58:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Find_number_of_Broken_links -->
-      </class> <!-- com.applitool.practice.SDJClass -->
+        </test-method> <!-- testFrames -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.applitool.practice.FramesEx@52a86356]" name="tearDown" is-config="true" duration-ms="802" started-at="2018-09-30T00:58:59Z" finished-at="2018-09-30T00:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.applitool.practice.FramesEx -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

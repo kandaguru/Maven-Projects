@@ -23,7 +23,7 @@ public class BaseClassJira {
 		
 		//C:\\Users\\kbas663\\Maven Projects-Sel\\RestAssuredProject\\src\\main\\java\\resources\\data.properties
 
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir"+"\\\\src\\\\main\\\\java\\\\resources\\\\data.properties"));
+		FileInputStream fis = new FileInputStream("C:\\Users\\kbas663\\Maven Projects-Sel\\RestAssuredProject\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 
 		String payload = "{ \"username\": \"venkat1793\", \"password\": \"Kbas663_01\" }";
@@ -38,7 +38,7 @@ public class BaseClassJira {
 		String sessionName = js.getString("session.name");
 		String sessionKey = js.get("session.value");
 
-		String cookieAuth = sessionName + "=" + sessionKey;
+		cookieAuth = sessionName + "=" + sessionKey;
 		return cookieAuth;
 	}
 

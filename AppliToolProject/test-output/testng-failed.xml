@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.applitool.practice.SDJClass">
+      <class name="com.applitool.practice.FramesEx">
         <methods>
+          <include name="testFrames"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="Find_number_of_Broken_links"/>
         </methods>
-      </class> <!-- com.applitool.practice.SDJClass -->
+      </class> <!-- com.applitool.practice.FramesEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

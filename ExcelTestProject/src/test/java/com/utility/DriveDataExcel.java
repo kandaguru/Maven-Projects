@@ -35,7 +35,7 @@ public class DriveDataExcel {
 
 			for (int j = 0; j < colCount; j++) {
 
-				str[i-2][j] = reader.getCellData(SheetName, j, i);
+ 			str[i-2][j] = reader.getCellData(SheetName, j, i);
 
 			}
 
